@@ -8,8 +8,8 @@ Data capture:
 ### 💻Execution of the data collection part of the project
 Setting the environment with all requirements using poetry:
 ```cli
-pip install virtualenv
 python -m venv venv
+pip install virtualenv
 ./venv/Scripts/activate
 pip install poetry
 poetry install
