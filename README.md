@@ -22,6 +22,15 @@ DB_DATABASE = "database"
 DB_LOGIN = "login"
 DB_PASSWORD = "password"
 ```
+Specifying settings for data collection in [data_collection.toml](https://github.com/missukrof/term-paper/blob/main/configs/data_collection.toml):
+```toml
+[SPOT_1H] # Name of the data collection specification
+symbol="ETHUSDT" # Data ticket
+start_time="2020-01-01" # Start date
+end_time="2023-01-01" # End date
+active="SPOT" # Active
+interval="1h" # Interval
+```
 Executing file to run data capture: [collect_data.py](https://github.com/missukrof/term-paper/blob/main/collect_data.py).
 Run it in cli:
 ```cli
